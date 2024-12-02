@@ -9067,7 +9067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 335409276}
   m_Layer: 0
-  m_Name: Artifacts
+  m_Name: Artifact (Left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9082,7 +9082,7 @@ Transform:
   m_GameObject: {fileID: 335409275}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.325816, y: 2.0161014, z: -0.15616775}
+  m_LocalPosition: {x: -1.4931679, y: -0.99834454, z: -3.7444983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9094,7 +9094,7 @@ Transform:
   - {fileID: 1941047054}
   - {fileID: 1657182621}
   - {fileID: 1983541081}
-  m_Father: {fileID: 966513882}
+  m_Father: {fileID: 519065916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &341110550
 PrefabInstance:
@@ -14074,6 +14074,39 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 517529359}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &519065915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519065916}
+  m_Layer: 0
+  m_Name: Artifacts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &519065916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519065915}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.25083232, y: 1.8683444, z: 2.0384984}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 335409276}
+  - {fileID: 1364727727}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &519158499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24542,8 +24575,6 @@ Transform:
   m_Children:
   - {fileID: 1755452355}
   - {fileID: 636687126}
-  - {fileID: 335409276}
-  - {fileID: 1364727727}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &970569946
@@ -35856,7 +35887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364727727}
   m_Layer: 0
-  m_Name: Artifacts (1)
+  m_Name: Artifact (Right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35870,8 +35901,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364727726}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -5.3187084, y: 2.0161014, z: 3.3247266}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.4860601, y: -0.99834454, z: -0.26360404}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35883,7 +35914,7 @@ Transform:
   - {fileID: 2077660060}
   - {fileID: 470594016}
   - {fileID: 1773562302}
-  m_Father: {fileID: 966513882}
+  m_Father: {fileID: 519065916}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1366262830
 PrefabInstance:
@@ -54964,3 +54995,4 @@ SceneRoots:
   - {fileID: 126699789}
   - {fileID: 1296845501}
   - {fileID: 966513882}
+  - {fileID: 519065916}
